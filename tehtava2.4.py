@@ -1,0 +1,7 @@
+luku1 = float(input('Anna kokonaisluku: '))
+luku2 = float(input('Anna toinen kokonaisluku: '))
+luku3 = float(input('No anna nyt kolmaskin vielä: '))
+summa = float(luku1+luku2+luku3)
+tulo = float(luku1*luku2*luku3)
+ka = float((luku1+luku2+luku3)/3)
+print(f'lukujesi summa on {summa}, tulo {tulo} ja keskiarvo {ka}.')
